@@ -14,7 +14,7 @@ export const PROJECTS = [
     description:
       "A fully functional Chat App with proper encryption functionality.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Vercel"],
-    link: "https://pratik-chat-app.vercel.app/",    
+    link: "https://mern-chat-frontend-1nin.onrender.com",    
   },
   {
     title: "Note App",
