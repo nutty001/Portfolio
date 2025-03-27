@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
+import SplineViewer from "./SplineViewer";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -22,6 +23,9 @@ const Hero = () => {
     <div className="pb-4 lg:mb-36">
       <div className="flex flex-wrap lg:flex-row-reverse">
         <div className="w-full lg:w-1/2">
+          <SplineViewer />
+        </div>
+        <div className="w-full lg:w-1/2">
           <motion.div
             initial="hidden"
             animate="visible"
@@ -42,7 +46,7 @@ const Hero = () => {
             </motion.span>
             <motion.p
               variants={childVarients}
-              className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
+              className="my-2 max-w-lg py-6 text-[22px] leading-relaxed tracking-tighter"
             >
               {HERO_CONTENT}
             </motion.p>

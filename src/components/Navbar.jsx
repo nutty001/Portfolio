@@ -10,7 +10,7 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex item-center justify-center gap-4 text-2xl">
         <a
-          href="https://www.linkedin.com/"
+          href="www.linkedin.com/in/pratikt"
           target="_blank"
           rel="noopener noreffer"
           aria-label="LinkedIn"
@@ -18,7 +18,7 @@ const Navbar = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://www.github.com/"
+          href="https://github.com/nutty001"
           target="_blank"
           rel="noopener noreffer"
           aria-label="Github"

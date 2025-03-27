@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Hero />
         <Technologies />
         <Projects />
+        <Toaster position="top-right" />
         <Contact />
       </div>
     </div>

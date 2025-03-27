@@ -1,6 +1,7 @@
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
+
 import { motion } from "framer-motion";
 
 const iconVarients = (duration) => ({
