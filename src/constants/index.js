@@ -13,7 +13,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional Chat App with proper encryption functionality.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Vercel"],
+    technologies: ["HTML", "Tailwind CSS", "React", "Node.js", "MongoDB", "Render"],
     link: "https://mern-chat-frontend-1nin.onrender.com",    
   },
   {
@@ -21,7 +21,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "An application for writing notes. Users can make their personal account to save notes which only they can access",
-    technologies: ["HTML", "CSS", "React", "MongoDB"],
+    technologies: ["HTML", "Tailwind CSS", "React", "Node.js", "MongoDB", "Render"],
     link: "https://notes-app-frontend-zeny.onrender.com",
   },
   
